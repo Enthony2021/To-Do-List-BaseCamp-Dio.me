@@ -1,0 +1,20 @@
+{
+  "name": "to-do-list-basecamp-dio.me",
+  "version": "1.0.0",
+  "description": "To Do list pela Dio.me",
+  "main": "./assets/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enthony2021/To-Do-List-BaseCamp-Dio.me.git"
+  },
+  "author": "Enthony Stevie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enthony2021/To-Do-List-BaseCamp-Dio.me/issues"
+  },
+  "homepage": "https://github.com/Enthony2021/To-Do-List-BaseCamp-Dio.me#readme"
+}
