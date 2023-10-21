@@ -13,7 +13,7 @@ class ToDolist {
     this.removerTarefa();
   }
 
-  criarTarefaEnter() {
+  criarTarefaEnter(): void {
     document.addEventListener("keypress", (e) => {
       if (this.inputTarefa && e.keyCode === 13 && this.inputTarefa.value) {
         this.tarefaEscrita = this.inputTarefa.value;
@@ -42,7 +42,7 @@ class ToDolist {
     });
   }
 
-  criarTarefaClick() {
+  criarTarefaClick(): void {
     if (this.botaoCriarTarefa)
       this.botaoCriarTarefa.addEventListener("click", (e: MouseEvent): void => {
         if (
@@ -82,7 +82,7 @@ class ToDolist {
       });
   }
 
-  removerTarefa() {
+  removerTarefa(): void {
     window.addEventListener("click", (e: MouseEvent): void => {
       console.log("Cliquei");
         if (e.target && e.target instanceof HTMLButtonElement) {
